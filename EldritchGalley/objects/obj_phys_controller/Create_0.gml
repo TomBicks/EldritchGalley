@@ -4,4 +4,4 @@ _phys_dir = 270;
 _phys_increment = 0;
 _increasing = true;
 
-alarm[0] = 120;
+alarm[0] = 30;

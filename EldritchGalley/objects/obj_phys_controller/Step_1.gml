@@ -27,4 +27,4 @@ else
 }
 
 //gravity_direction = _phys_dir;
-physics_world_gravity(0 + _phys_increment, 100);
+physics_world_gravity(0 + _phys_increment, 100 - abs(_phys_increment));
