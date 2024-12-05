@@ -1,0 +1,10 @@
+Having an object counter-rotate against the camera's view_angle, and having the sprite centred in the room,
+works well enough to make it look like a static background that isn't rotating with the rest of the game.
+
+However, in order to have other elements work the same way and rotate with the background, in the same
+position, the sprite needs to be as wide and as tall as the room and needs to be centred, even if the actual
+content of the sprite is just a small sea-beast in the top middle.
+So, more specifically, it would be a, say, 1300*800 sprite, with a 40*40 kraken sprite in one particular place
+on the sprite.
+It would essentially be transparent layers built up on one another, all controlled by the static background
+controller object.
