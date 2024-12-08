@@ -4,6 +4,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"rotating_room","path":"rooms/rotating_room/rotating_room.yy",},"order":1,},
     {"id":{"name":"bkg_test","path":"sprites/bkg_test/bkg_test.yy",},"order":2,},
+    {"id":{"name":"bkg_porthole","path":"sprites/bkg_porthole/bkg_porthole.yy",},"order":3,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":0,},
     {"id":{"name":"Static Background Rotation","path":"notes/Static Background Rotation/Static Background Rotation.yy",},"order":0,},
     {"id":{"name":"obj_static_background_controller","path":"objects/obj_static_background_controller/obj_static_background_controller.yy",},"order":4,},
