@@ -1,0 +1,11 @@
+Regarding the creaking of wood that sounds when a ship rocks back-and-forth on the water, I think I might
+have an idea of how to time how frequent the creaking is, and when it occurs.
+
+So, as a ship rocks, it tilts quickly at first, then tilts slower and slower, until it hits its precipice,
+not unlike a lerp function (the same one I'll likely be using to calculate the tilting).
+
+Well, what if I tied the creaking noise to trigger based on how quickly the room is tilting? That way, it
+creaks more as it tilts more, as it should, and creaks only every so often as it tilts slower and slower.
+
+So, for example, I could trigger the wood creaking noise every 5 degrees, so it triggers maybe 10 times
+quickly initially, then only every so often as the change in degrees slows down.
