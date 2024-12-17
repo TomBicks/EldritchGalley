@@ -11,3 +11,16 @@ in the timer, should work well.
 Likewise, this increasing or decreasing 'value' that I add or subtract from the rotation angle could also
 be the value I need to determine how much the ship creaks, as mentioned in the 'Creaking Noise Frequency'
 note.
+
+---
+
+So it seems regarding the alarms, to avoid the issue with the counter-motion only going so far as to meet
+and still the forward-motion before the forward-motion moves it in the same direction, like a clock moving
+clockwise, I need to have the second alarm *twice* as big as the first. This means it has enough time to
+counter the momentum and also have enough time to add its own momentum.
+
+Take for example a 60 tick alarm. We're moving counter-clockwise 60 ticks. Then we set the alarm for 120 ticks
+in the clockwise direction; after 60 ticks we're back at the start, and then we have 60 ticks to reach the
+other highpoint. Then from here we set the alarm to be 120 from now on, repeating the above process.
+This works, but it has the issue of putting us at an incorrect angle, as we're starting from angle 0, so we 
+rotate 60 ticks counter-clockwise, then 120 ticks clockwise puts us back at angle 0.
