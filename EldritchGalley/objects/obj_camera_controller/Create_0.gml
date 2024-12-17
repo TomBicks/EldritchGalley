@@ -11,3 +11,4 @@ view_xcoords = [view_entrance_x, view_cooking_x, view_storeroom_x];
 view_ycoord = 0;
 
 current_view = 1; //Index; The default view is of the cooking area
+camera_set_view_pos(current_camera, view_xcoords[current_view], view_ycoord); //Set default view
