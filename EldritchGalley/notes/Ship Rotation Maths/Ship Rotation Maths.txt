@@ -1,0 +1,13 @@
+Whilst lerp works somewhat well as the ships descends from a highpoint, it means the change in rotation is
+sudden as it reaches the highpoint and then suddenly stops and goes back down again; there's no sense of
+inertia.
+
+Thus, I think the new system should be that I slowly and gradually faster add angle to the rotation, then
+do the same in reverse, taking the rotation away slowly, then faster and faster as it reaches the other
+highpoint, then repeat the process.
+With any luck, simply doing this on a timer, with the rotation increasing or decreasing the less in left
+in the timer, should work well.
+
+Likewise, this increasing or decreasing 'value' that I add or subtract from the rotation angle could also
+be the value I need to determine how much the ship creaks, as mentioned in the 'Creaking Noise Frequency'
+note.

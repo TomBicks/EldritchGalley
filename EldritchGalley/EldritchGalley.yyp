@@ -12,6 +12,7 @@
     {"id":{"name":"Creaking Noise Frequency","path":"notes/Creaking Noise Frequency/Creaking Noise Frequency.yy",},"order":1,},
     {"id":{"name":"obj_static_background_controller","path":"objects/obj_static_background_controller/obj_static_background_controller.yy",},"order":4,},
     {"id":{"name":"obj_room_rotation_controller","path":"objects/obj_room_rotation_controller/obj_room_rotation_controller.yy",},"order":3,},
+    {"id":{"name":"Ship Rotation Maths","path":"notes/Ship Rotation Maths/Ship Rotation Maths.yy",},"order":2,},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"order":0,},
   ],
   "Options": [
