@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},"order":6,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"rotating_room","path":"rooms/rotating_room/rotating_room.yy",},"order":1,},
     {"id":{"name":"bkg_test","path":"sprites/bkg_test/bkg_test.yy",},"order":2,},
