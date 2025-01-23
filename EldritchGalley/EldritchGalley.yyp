@@ -8,6 +8,7 @@
     {"id":{"name":"obj_pendulum","path":"objects/obj_pendulum/obj_pendulum.yy",},"order":8,},
     {"id":{"name":"bkg_test","path":"sprites/bkg_test/bkg_test.yy",},"order":2,},
     {"id":{"name":"bkg_porthole","path":"sprites/bkg_porthole/bkg_porthole.yy",},"order":3,},
+    {"id":{"name":"scr_simulate_pendulum","path":"scripts/scr_simulate_pendulum/scr_simulate_pendulum.yy",},"order":0,},
     {"id":{"name":"obj_room_sine_rotation_controller","path":"objects/obj_room_sine_rotation_controller/obj_room_sine_rotation_controller.yy",},"order":7,},
     {"id":{"name":"obj_room_lerp_rotation_controller","path":"objects/obj_room_lerp_rotation_controller/obj_room_lerp_rotation_controller.yy",},"order":5,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":0,},
