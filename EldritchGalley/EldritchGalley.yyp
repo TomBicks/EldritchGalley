@@ -39,8 +39,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"pendulum_test","path":"rooms/pendulum_test/pendulum_test.yy",},},
     {"roomId":{"name":"rotating_room","path":"rooms/rotating_room/rotating_room.yy",},},
+    {"roomId":{"name":"pendulum_test","path":"rooms/pendulum_test/pendulum_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

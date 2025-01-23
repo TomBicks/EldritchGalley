@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-//angle = -90;
+//angle = 270;
 //THAT's THE ISSUE! The trouble I've been having is trying to start the momentum from the middle
 //As this pendulum test shows, it doesn't work if it starts in the middle; it only works if it has a side
 //to swing from. Now, is it possible to replicate the momentum it would have at this moment, I wonder?
@@ -10,9 +10,12 @@
 
 //angle_acceleration = -0.01;
 
-angle = 180;
+//swing_speed = 0.1;
+
+angle = 315;
 angle_velocity = 0;
 angle_acceleration = 0;
+swing_speed = 0.01;
 
 //So, test shows we can fake the measurements to make it look practiclly identical, so it starts from the middle
 //but looks like it was swinging back and forth already. The issue then is that it only works for that
