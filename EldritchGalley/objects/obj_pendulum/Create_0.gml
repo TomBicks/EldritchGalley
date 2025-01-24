@@ -12,10 +12,10 @@
 
 //swing_speed = 0.1;
 
-angle = 315;
-angle_velocity = 0;
-angle_acceleration = 0;
+angle = 270;
 swing_speed = 0.01;
+angle_velocity = scr_simulate_pendulum(315, swing_speed);
+angle_acceleration = 0;
 
 //So, test shows we can fake the measurements to make it look practiclly identical, so it starts from the middle
 //but looks like it was swinging back and forth already. The issue then is that it only works for that
