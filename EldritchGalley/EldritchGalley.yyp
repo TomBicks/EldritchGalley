@@ -10,6 +10,7 @@
     {"id":{"name":"bkg_porthole","path":"sprites/bkg_porthole/bkg_porthole.yy",},"order":3,},
     {"id":{"name":"scr_simulate_pendulum","path":"scripts/scr_simulate_pendulum/scr_simulate_pendulum.yy",},"order":0,},
     {"id":{"name":"obj_room_sine_rotation_controller","path":"objects/obj_room_sine_rotation_controller/obj_room_sine_rotation_controller.yy",},"order":7,},
+    {"id":{"name":"obj_mouse_tracker","path":"objects/obj_mouse_tracker/obj_mouse_tracker.yy",},"order":9,},
     {"id":{"name":"obj_room_lerp_rotation_controller","path":"objects/obj_room_lerp_rotation_controller/obj_room_lerp_rotation_controller.yy",},"order":5,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":0,},
     {"id":{"name":"Static Background Rotation","path":"notes/Static Background Rotation/Static Background Rotation.yy",},"order":0,},

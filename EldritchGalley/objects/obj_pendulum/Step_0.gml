@@ -5,7 +5,7 @@ angle_acceleration = -(swing_speed) * dcos(angle);
 angle_velocity += angle_acceleration;
 angle += angle_velocity;
 
-//This code is necassary to animate the pendulum, but is not necassary for just
+//This code is necessary to animate the pendulum, but is not necassary for just
 //calculating the angle as it 'swings'
 #region Animate Pendulum
 var new_x = anchor_x + lengthdir_x(distance, angle);
@@ -15,7 +15,7 @@ x = new_x;
 y = new_y;
 #endregion
 
-//show_message(camera_get_view_angle(view_camera[0]));
+//Update  camera angle to match angle of the swinging pendulum
 camera_set_view_angle(view_camera[0], angle+90);
 
 
