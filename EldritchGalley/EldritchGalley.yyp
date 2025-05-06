@@ -18,6 +18,7 @@
     {"id":{"name":"obj_static_background_controller","path":"objects/obj_static_background_controller/obj_static_background_controller.yy",},"order":4,},
     {"id":{"name":"obj_room_rotation_controller","path":"objects/obj_room_rotation_controller/obj_room_rotation_controller.yy",},"order":3,},
     {"id":{"name":"pendulum_test","path":"rooms/pendulum_test/pendulum_test.yy",},"order":2,},
+    {"id":{"name":"snd_creak","path":"sounds/snd_creak/snd_creak.yy",},"order":0,},
     {"id":{"name":"Ship Rotation Maths","path":"notes/Ship Rotation Maths/Ship Rotation Maths.yy",},"order":2,},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"order":0,},
   ],
